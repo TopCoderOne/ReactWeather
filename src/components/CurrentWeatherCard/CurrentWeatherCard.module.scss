@@ -1,0 +1,42 @@
+.current_weather_card {
+    background-color: rgba(79, 79, 79, 1);
+    box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+    padding: 20px;
+
+    &>.header {
+        display: flex;
+        justify-content: space-between;
+        &>p>span {
+            &:first-child {
+                color: rgba(71, 147, 255, 1);
+                font-family: Montserrat;
+                font-weight: 500;
+                font-size: 96px;
+                line-height: 100%;
+                letter-spacing: 0%;
+            }
+
+            &:nth-child(2) {
+                display: block;
+                color: rgba(255, 255, 255, 1);
+                font-family: Montserrat;
+                font-weight: 400;
+                font-size: 40px;
+                line-height: 100%;
+                letter-spacing: 0%;
+            }
+        }
+    }
+
+    &>p {
+        color: rgba(147, 156, 176, 1);
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+}
