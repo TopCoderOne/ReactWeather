@@ -1,0 +1,10 @@
+// base
+@use "./base/reset";
+@use "./base/globals";
+@use "./base/typography";
+
+// abstracts
+@use "./abstracts/variables";
+@use "./abstracts/mixins";
+@use "./abstracts/functions";
+@use "./abstracts/placeholder";
