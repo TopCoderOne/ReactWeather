@@ -1,0 +1,60 @@
+.forecastCard {
+    background-color: rgba(46, 48, 53, 1);
+    width: 100%;
+    max-width: 149px;
+    border-radius: 10px;
+    padding: 11px;
+
+    &>.day {
+        color: rgba(255, 255, 255, 1);
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        margin-bottom: 7px;
+    }
+
+    &>.data {
+        color: rgba(147, 156, 176, 1);
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+
+    &>svg {
+        width: 48px;
+        height: 48px;
+        margin: 12px 0;
+    }
+
+    &>.temperatureNew {
+        color: rgba(255, 255, 255, 1);
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+
+    &>.temperaturePrev {
+        color: rgba(147, 156, 176, 1);
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        margin: 3px 0 6px;
+    }
+
+    &>.weather {
+        color: rgba(147, 156, 176, 1);
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+}
