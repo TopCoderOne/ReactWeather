@@ -1,12 +1,10 @@
-import WeatherDetailsCard from './components/WeatherDetailsCard/WeatherDetailsCard'
-import CurrentWeatherCard from './components/CurrentWeatherCard/CurrentWeatherCard'
+import Home from './pages/Home/Home';
 
 function App() {
 
   return (
     <>
-      <CurrentWeatherCard />
-      <WeatherDetailsCard />
+      <Home />
     </>
   )
 }
